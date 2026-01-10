@@ -46,6 +46,7 @@ header {
           text-transform: lowercase;
 }
 .nav-menu {
+
           height: 55px;
          gap: 32px;
           padding: 34px 344px 34px 345px ;
@@ -214,4 +215,207 @@ header {
   color: #666;
   line-height: 1.6;
 }
+#pkv-solution-area {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.pkv-solution-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.pkv-visual-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pkv-visual-box img {
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pkv-content-box {
+  flex: 1;
+}
+
+.pkv-section-tag {
+  color: #22c55e;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.pkv-main-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 12px 0 16px;
+  color: #0f172a;
+}
+
+.pkv-description {
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  max-width: 520px;
+}
+
+.pkv-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pkv-feature-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.pkv-feature-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #22c55e;
+  font-weight: bold;
+}
+
+
+
+.solution-content li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #3bb273;
+  font-weight: bold;
+  background-color: #30B868;
+}
+.pkv-cta-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.pkv-cta-box {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f7f6f3;
+  border-radius: 16px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pkv-cta-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.pkv-cta-text {
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.pkv-cta-button {
+  display: inline-block;
+  background-color: #3f8f5a;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.pkv-cta-button:hover {
+  background-color: #327548;
+}
+
+.pkv-cta-note {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #64748b;
+}
+.pkv-footer-area {
+  background-color: #021b33;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+}
+
+.pkv-footer-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pkv-footer-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pkv-footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pkv-logo-icon {
+  font-size: 20px;
+}
+
+.pkv-logo-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pkv-footer-sub {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.pkv-footer-right {
+  text-align: right;
+}
+
+.pkv-social-title {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+
+.pkv-social-icons a {
+  margin-left: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.pkv-social-icons a:hover {
+  opacity: 1;
+}
+
+.pkv-footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
 
