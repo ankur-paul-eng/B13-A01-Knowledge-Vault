@@ -34,7 +34,7 @@ header {
 .logo h2{
           font-size: 50px;
           color: #30bb68;
-         /* padding: 5px 5px 19px 65px ;*/
+         
          font-weight: 700;
 
 }
@@ -42,7 +42,7 @@ header {
           margin-top: 4px;
           font-size: 8px;
           color: #555 ;
-         /* padding: 0 5px 5px 64px ;*/
+         
           text-transform: lowercase;
 }
 .nav-menu {
@@ -54,7 +54,7 @@ header {
           list-style: none;
           text-decoration: none;
        align-items: center;
-       /* text-decoration: none;*/
+     
 
 }
 .nav-menu .non:hover{
@@ -95,9 +95,8 @@ header {
   background-color: rgb(241, 239, 245);
 }
 #banner{
-  /*border: 1px solid blue;*/
+ 
   margin-top: 24px;
-  /*background-color: #ffffff;*/
   background-image: url("./assets/hero-bg.png");
   background-size: cover; 
   background-position: center;
@@ -151,17 +150,68 @@ header {
 .btn-co {
   padding: 32px 447px;
 }
-/*
-.non{
-            background-color:n ;
-          border: none;
-         padding: 12px 16px;
-          border-radius: 4px;
-          color: #181515;
-          cursor: pointer;
-  
+
+#problems {
+  padding: 100px 0;
+  background: #ffffff;
+  text-align: center;
 }
 
-.non:hover{
-  background-color: #30B868;
-}*/
+#problems .container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0px 120px 44px 120px ;
+}
+
+#problems h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+#problems .subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 60px;
+}
+
+.problem-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  padding: 32px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  cursor: pointer;
+}
+.card:hover{
+  background-color: #eafaf1;
+}
+
+.card .icon {
+  width: 48px;
+  height: 48px;
+  background: #ff5a5a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 20px;
+}
+
+.card h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
