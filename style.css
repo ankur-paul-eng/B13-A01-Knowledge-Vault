@@ -98,7 +98,7 @@ header {
   /*border: 1px solid blue;*/
   margin-top: 24px;
   /*background-color: #ffffff;*/
-  background-image: url("assets/hero-bg.png");
+  background-image: url("./assets/hero-bg.png");
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
